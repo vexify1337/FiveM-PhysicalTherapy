@@ -235,7 +235,7 @@ local function AddNPCTarget(npc, index)
     end
 end
 
--- edited by solph: added delay because original script tried to add targets before NPCs even existed, causing errors everywhere
+-- edited by solph: added delay because original script tried to add targets before NPCs even existed, causing errors everywhere on other targets.
 CreateThread(function()
     Wait(1000)
     CreateLocationBlips()
@@ -255,3 +255,4 @@ AddEventHandler('onResourceStop', function(resourceName)
     RemoveLocationBlips()
     DeleteNPCs()
 end)
+
