@@ -1,6 +1,6 @@
 Config = {}
 
--- edited by me becuase this script was horrible with nothing working with what it was supposed to, was just a chat gpt script threw up.
+-- edited by me becuase this script by fearx is fucking horrible.
 Config.NPCModel = 's_m_m_doctor_01'
 
 Config.ChargeMoney = true
@@ -37,3 +37,4 @@ Config.MedicLocations = {
         }
     },
 }
+
